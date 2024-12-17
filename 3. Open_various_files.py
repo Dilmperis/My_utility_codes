@@ -43,6 +43,7 @@
         
 
 # .tar ################################################################################################  "tar" stands for "tape archive", as it was initially developed for writing data to tape drives.
+# tar files can be extracted in local folders!
 # import tarfile
 
 # file_path = #add tar file here
