@@ -5,6 +5,7 @@
 # file_path = #add npy file here
 # data = np.load(file_path)
 # print("Shape of the array:", data.shape)
+# print('data.dtype:', data.dtype) 
 # print(data[:10])
 
 # .bson ################################################################################################
