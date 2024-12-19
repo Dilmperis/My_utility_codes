@@ -28,6 +28,7 @@
 # with h5py.File(file_path, 'r') as f:
 #     print("Available datasets: ", list(f.keys())) # List all datasets in the file! keys() works only for h5py._hl.group.Group
 #     data = f['dataset_name']  # Replace 'dataset_name' with the name of the dataset you want to load
+#     data = f.get('dataset_name') # THis works the same ways as data = f['dataset_name'] 
 #     print("Shape of the dataset:", data.shape)
 
 # .npz ################################################################################################
