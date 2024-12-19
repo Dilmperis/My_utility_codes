@@ -26,7 +26,7 @@
 # import hdf5plugin
 # file_path = #add h5py file here 
 # with h5py.File(file_path, 'r') as f:
-#     print("Available datasets: ", list(f.keys())) # List all datasets in the file
+#     print("Available datasets: ", list(f.keys())) # List all datasets in the file! keys() works only for h5py._hl.group.Group
 #     data = f['dataset_name']  # Replace 'dataset_name' with the name of the dataset you want to load
 #     print("Shape of the dataset:", data.shape)
 
