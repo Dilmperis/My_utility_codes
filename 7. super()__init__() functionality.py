@@ -35,3 +35,14 @@ child = Child()
 print(child.child_combine()) # Works only with super().__init__() !!!!!
 print(child.use_combine_parent()) # Works with and without super().__init__()
 
+#=============================================================================
+''' OUTPUTS:
+
+WITHOUT super(): AttributeError: 'Child' object has no attribute 'arg1'
+
+WITH super(): 
+arg1
+child_arg1child_arg2
+'''
+
+
