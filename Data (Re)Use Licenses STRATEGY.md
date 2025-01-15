@@ -1,6 +1,6 @@
 # Data (Re)Use Licenses STRATEGY:
 
-Our research group employs a variety of licenses for data, code, theses, and publications, 
+I should employ a variety of licenses for data, code, theses, and publications, 
 tailored to specific use cases and sharing needs. Below are the typical licenses used:
 
 1. **Licenses for Data**
