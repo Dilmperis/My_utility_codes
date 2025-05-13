@@ -290,6 +290,8 @@ torch.save(model.state_dict(), 'best_model.pth')
 
         Learning rate
 '''
-
+'''
+11. Batch Normalization!!
+'''
 
 
