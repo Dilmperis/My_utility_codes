@@ -82,7 +82,6 @@ class CustomModel(nn.Module):
 # 4. Training
 from torchvision.models import resnet18
 
-
 # Initialize the model, loss function, optimizer, and scheduler
 model = CustomModel(num_classes=10, pretrained=True)
 model.to(device)
@@ -241,6 +240,56 @@ test_dataset = YourTestDataset("path/to/test_data")
 
 # Run the test
 test(model, test_dataset, batch_size=32, checkpoint_path="path/to/checkpoint.pth", results_path="test_results.json")
+
+######################################################################################################################
+######################################################################################################################
+# Aspects of training to be concerned:
+
+batch_size = 16
+epochs = 15 # Always involve early stopping
+learning_rate=0.003 # or 1e-3
+early_stoppage_patience = 5 # 5 epochs of no improvement means stop...
+device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+
+optimizer = optim.Adam(model.parameters(), lr=learning_rate)
+criterion = nn.CrossEntropyLoss()
+
+'''Evaluation Metrics:
+Accuracy / F1 / Precision / Recall: Classification
+mAP (mean average precision): Object detection
+IoU (Intersection over Union): Detection/segmentation)'''
+
+# Validation strategy (K-fold if you don't have enough data)
+
+# Data augmentation (Improves Generalization):
+'''
+Classification: flips, color jitter, crop, rotate
+
+Detection: Mosaic, MixUp, random scaling, etc.
+
+Use torchvision.transforms or Albumentations
+'''
+
+'''
+Checkpointing
+    Save model weights:
+
+        Best on validation set
+
+        Or latest every n epochs
+'''
+torch.save(model.state_dict(), 'best_model.pth')
+
+'''
+10. Logging & Visualization
+    Use TensorBoard, Weights & Biases, or simple plots to track:
+
+        Loss
+
+        Accuracy / mAP
+
+        Learning rate
+'''
 
 
 
