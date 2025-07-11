@@ -5,7 +5,7 @@ A)
     1. batch size
     2. num_epochs
     3. lr (learning rate)
-    4. include timing of training
+    4. include timing of training (tqdm does it also)
     5. (for Generalization): Data augmentation
     6. Losses/Eval Logging + Visualization 
 
