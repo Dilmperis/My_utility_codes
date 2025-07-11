@@ -1,4 +1,4 @@
-
+'''
 1) .detach() removes the tensor from the computation graph.
 
 It tells PyTorch:
@@ -20,4 +20,5 @@ It tells PyTorch:
         f) File I/O
         ... can't handle CUDA tensors.
 So .cpu() moves the tensor to the CPU, making it usable in those libraries.
+'''
 
