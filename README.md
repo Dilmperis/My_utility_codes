@@ -13,7 +13,7 @@ This is a structured checklist to guide training an object detection model.
 1. **Batch Size**
 2. **Number of Epochs**
 3. **Learning Rate (`lr`)**
-4. ⏱️ **Track Training Time**
+4. ⏱️ **Track Training Time** (tqdm does it also)
 5. 🎛️ **(For Generalization): Data Augmentation**
 6. 📊 **Loss & Evaluation Logging + Visualization**
 
