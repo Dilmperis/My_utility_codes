@@ -11,6 +11,10 @@ from file_name import function_you_want
 import os
 script_path = os.path.abspath(__file__) # absolyte path of the script
 script_folder = os.path.dirname(script_path)
+
+#or more easily:
+script_folder = os.path.dirname(os.path.abspath(__file__))
+
 cwd = os.getcwd() # current working directory path
 relative_folder_path = os.relpath(cwd, script_folder) # relative path from cwd to the folder containing the script I run
 
