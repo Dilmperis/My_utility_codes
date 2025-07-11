@@ -15,7 +15,7 @@ B)
     9. early stopping
     10. print evaluation metrics
     11. Split strategy (train/val/test)
-    12. Checkpoint (saving): 
+    12. Checkpoint (saving): MAKE run file and add run_index fir each run.. 
         a) best model (according to val/test)
         b) every last epoch
   
