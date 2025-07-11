@@ -1,0 +1,21 @@
+This is a structured checklist to guide training an object detection model.
+
+---
+A) 
+    1. batch size
+    2. num_epochs
+    3. lr (learning rate)
+    4. include timing of training
+    5. (for Generalization): Data augmentation
+    6. Losses/Eval Logging + Visualization 
+
+B)  
+    7. optimizer
+    8. loss function (criterion)
+    9. early stopping
+    10. print evaluation metrics
+    11. Split strategy (train/val/test)
+    12. Checkpoint (saving): 
+        a) best model (according to val/test)
+        b) every last epoch
+  
