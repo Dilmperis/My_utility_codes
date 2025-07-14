@@ -17,7 +17,7 @@ def parse_arguments():
 
 
 ##########################################################################################
-# Or more effeciently:
+# Or more efficiently:
 '''14/7/2025'''
 
 parser = argparse.ArgumentParser(description="Train a model")
