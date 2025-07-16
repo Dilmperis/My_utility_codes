@@ -29,7 +29,8 @@ This is a structured checklist to guide training an object detection model.
 12. 💾 **Checkpointing (Saving Models):**
     - ✅ Best model (based on validation/test performance)
     - 📌 Save model every *n* epochs or last epoch
-
+13. A good idea is to use all the hyperparameters as parser.arguments, and then save the command also in the loggings! 
+    So that way you will know the results, but also how you got them.
 ---
 
 > Tip: Combine this checklist with tools like TensorBoard or Weights & Biases for better monitoring.
