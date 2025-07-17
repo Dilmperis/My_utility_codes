@@ -10,6 +10,7 @@ This is a structured checklist to guide training an object detection model.
 
 ## 🔧 A) Training Configuration
 
+0. BE CAREFUL WHERE YOU STORE THE DATA:  SSD ALWAYS!!! (with HDD its 10 x slower)
 1. **Batch Size**
 2. **Number of Epochs**
 3. **Learning Rate (`lr`)**
