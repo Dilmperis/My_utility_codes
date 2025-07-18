@@ -34,7 +34,10 @@ This is a structured checklist to guide training an object detection model.
     So that way you will know the results, but also how you got them.:
         
     with open(log_path_of_txt_file, 'a') as f:
-        f.write(f'command used: \n      python3 {" ".join(sys.argv)}\n') 
+        f.write(f'command used: \n      python3 {" ".join(sys.argv)}\n')
+
+14. Implement the loading from saved checkpoint (start_epoch, epochs) from the beginning because your training might crash.
+    Save model, optimizer, epoch, best_metric.
 ---
 
 > Tip: Combine this checklist with tools like TensorBoard or Weights & Biases for better monitoring.
