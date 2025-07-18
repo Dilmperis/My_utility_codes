@@ -20,8 +20,9 @@ B)
         a) best model (according to val/test)
         b) every last epoch
     13. A good idea is to use all the hyperparameters as parser.arguments, and then save the command also in the loggings! 
-        So that way you will know the results, but also how you got them.
-
-        
+        So that way you will know the results, but also how you got them.:
         with open(log_path_of_txt_file, 'a') as f:
             f.write(f'command used: \n      python3 {" ".join(sys.argv)}\n') 
+    
+    14. Implement the loading from saved checkpoint (start_epoch, epochs) from the beginning because your training might crash.
+        Save model, optimizer, epoch, best_metric.
