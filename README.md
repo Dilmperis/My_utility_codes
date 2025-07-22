@@ -38,6 +38,9 @@ This is a structured checklist to guide training an object detection model.
 
 14. Implement the loading from saved checkpoint (start_epoch, epochs) from the beginning because your training might crash.
     Save model, optimizer, epoch, best_metric.
+
+15. Use torch.compile(model) afters creating your model. It optimizes the training. But when you save the model, save the un-optimized.
+    Meaning: optimized_model = torch.compile(model) , but torch.save(model.state_dict, "ckpt.pt") !!!
 ---
 
 > Tip: Combine this checklist with tools like TensorBoard or Weights & Biases for better monitoring.
