@@ -1,0 +1,11 @@
+Create a script file, like train_queue.sh:
+
+    #!/bin/bash
+    
+    python train_model1.py
+    python train_model2.py
+    python train_model3.py
+============================================
+Run it with:
+    bash path_to_train_queue.sh
+
