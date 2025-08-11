@@ -9,3 +9,4 @@ Create a script file, like train_queue.sh:
 Run it with:
     bash path_to_train_queue.sh
 
+# SOS: If one script fails, all the other will not run, so you must correct this... it is not the optimal way!
