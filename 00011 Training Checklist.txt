@@ -8,7 +8,7 @@ A)
     3. lr (learning rate)
     4. include timing of training (tqdm does it also)
     5. (for Generalization): Data augmentation
-    6. Losses/Eval Logging + Visualization 
+    6. Losses/Eval Logging + Visualization // SOS: Use tensorboard (SummaryWriter)
 
 B)  
     7. optimizer
