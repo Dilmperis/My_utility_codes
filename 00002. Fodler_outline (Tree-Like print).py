@@ -9,7 +9,7 @@ def print_tree(root_folder, indent=""):
     print(folder_name)
     
     # Get list of files and directories
-    items = os.listdir(root_folder)
+    items = os.listdir(root_folder) # SOS: os.listdir() returns filenames in arbitrary order. use sorted(os.listdir(file))
     
     for index, item in enumerate(items):
         path = os.path.join(root_folder, item)
@@ -27,3 +27,4 @@ def print_tree(root_folder, indent=""):
 
 
 print_tree(path_folder)
+
