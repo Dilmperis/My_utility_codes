@@ -45,6 +45,6 @@ This is a structured checklist to guide training an object detection model.
 
 > Tip: Combine this checklist with tools like TensorBoard or Weights & Biases for better monitoring.
 ---
-MISTAKES I DID:
+# MISTAKES I DID:
 
 1. os.listdir() returns filenames in arbitrary order. use sorted(os.listdir(file))
