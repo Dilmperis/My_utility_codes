@@ -30,5 +30,5 @@ writer.close()
 '''
 You start the tensorboard by using the command:
 
-    tensorboard --logdir=file_path 
+    tensorboard --logdir=directoy_path    # SOS not the file_path... 
 '''
