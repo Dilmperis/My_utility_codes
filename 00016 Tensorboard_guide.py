@@ -26,3 +26,9 @@ for epoch in range(num_epochs):
 
 # Close the writer
 writer.close()
+
+'''
+You start the tensorboard by using the command:
+
+    tensorboard --logdir=file_path 
+'''
