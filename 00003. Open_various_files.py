@@ -80,4 +80,7 @@
 #     print(f'Number of folders: {i}')
 
 
+#  .list #######################################################
+#  A file with the .list extension is an APT list file used in the Debian (Linux) operating system. 
+#  It contains a collection of software package download sources. They're created by the included APT (Advanced Package Tool). 
 
