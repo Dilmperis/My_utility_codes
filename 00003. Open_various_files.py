@@ -1,5 +1,18 @@
 ''' This file contains lines of code for OPENING various types of files || 10.9.2024 ||'''
 
+
+# .zip ################################################################################################
+''' If you don't have enough space to unzip a big folder (meaning to unzip, have the folder TWICE,
+and cause memory storage problems, then keep it zipped and unzip it in python!'''
+# import zipfile
+# import numpy as np
+
+# file_path = '/media/etro/Seagate/guest01-auto_recordings_v2.zip'
+# with zipfile.ZipFile(file_path) as zf:
+#     subfolders = sorted({name.split('/')[1] for name in zf.namelist() if name.count('/') > 1})
+#     print(subfolders)
+
+
 # .npy ################################################################################################
 # import numpy as np
 # file_path = #add npy file here
@@ -83,4 +96,5 @@
 #  .list #######################################################
 #  A file with the .list extension is an APT list file used in the Debian (Linux) operating system. 
 #  It contains a collection of software package download sources. They're created by the included APT (Advanced Package Tool). 
+
 
