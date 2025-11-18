@@ -17,3 +17,30 @@ for file in os.listdir(path_folder):
 
 dataset = np.array(dataset)
 print(dataset.shape)
+
+
+# OpenCV
+import cv2
+
+dataset = []
+
+for file in os.listdir(path_folder):
+  if file.endswith('.png'):
+    image_path = os.path.join(path_folder, file)
+    img = cv2.imread(image_path, cv2.IMREAD_GRAYSCALE)  # or IMREAD_COLOR
+    img_as_array = np.array(img)
+    dataset.append(img_as_array)
+
+dataset = np.array(dataset)
+print(dataset.shape)
+
+
+# Matplotlib
+import matplotlib.image as mpimg
+
+img = mpimg.imread("path/to/image.png")
+print(img.shape)
+
+
+
+
