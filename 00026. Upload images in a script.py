@@ -8,7 +8,7 @@ import  numpy as np
 path_folder = "path/to/folder"
 dataset = []
 
-for file in os.listfolder(path_folder):
+for file in os.listdir(path_folder):
   if file.endswith('.png'):
     image_path = os.path.join(path_folder, file)
     img = Image.open(image_path)
