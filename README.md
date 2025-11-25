@@ -48,3 +48,8 @@ This is a structured checklist to guide training an object detection model.
 # MISTAKES I DID:
 
 1. os.listdir() returns filenames in arbitrary order. use sorted(os.listdir(file))
+
+
+# Great Quote:
+
+Probability is the mathematics of reasoning under uncertainty, much as calculus is the mathematics for reasoning about rates of change
