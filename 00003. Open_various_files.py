@@ -99,5 +99,7 @@ and cause memory storage problems, then keep it zipped and unzip it in python!''
 
 
 
-# .jsonl (It means json + lines. It is the same as JSON format but implemented using newline characters to separate JSON values)
+# .jsonl ################################################################################################ 
+# (It means json + lines. It is the same as JSON format but implemented using newline characters to separate JSON values)
+
 
