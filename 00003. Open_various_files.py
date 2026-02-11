@@ -93,8 +93,11 @@ and cause memory storage problems, then keep it zipped and unzip it in python!''
 #     print(f'Number of folders: {i}')
 
 
-#  .list #######################################################
+#  .list file extension that is basically the same as JSON format but implemented using newline characters to separate JSON values
 #  A file with the .list extension is an APT list file used in the Debian (Linux) operating system. 
 #  It contains a collection of software package download sources. They're created by the included APT (Advanced Package Tool). 
 
+
+
+# .jsonl (It means json + lines. It is the same as JSON format but implemented using newline characters to separate JSON values)
 
