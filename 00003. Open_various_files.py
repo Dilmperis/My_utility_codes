@@ -100,6 +100,11 @@ and cause memory storage problems, then keep it zipped and unzip it in python!''
 
 
 # .jsonl ################################################################################################ 
-# (It means json + lines. It is the same as JSON format but implemented using newline characters to separate JSON values)
+# # (It means json + lines. It is the same as JSON format but implemented using newline characters to separate JSON values)
+# with open("path_to_jsonl", "r", encoding="utf-8") as f:
+#     for line in f:
+#         data = json.loads(line) # if you want to get each line separately
+
+
 
 
