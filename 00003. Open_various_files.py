@@ -106,5 +106,10 @@ and cause memory storage problems, then keep it zipped and unzip it in python!''
 #         data = json.loads(line) # if you want to get each line separately
 
 
+# .tgz ################################################################################################
+## tgz file is a compressed archive file format that is a combination of two other archive formats, namely TAR (tape archive) and GZIP. 
+## The TAR format is used to store multiple files into one archive, while GZIP is used to compress the data in the archive to reduce its size.
+# To_Do how to open it 
+
 
 
