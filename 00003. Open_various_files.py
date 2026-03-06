@@ -112,4 +112,7 @@ and cause memory storage problems, then keep it zipped and unzip it in python!''
 # To_Do how to open it 
 
 
-
+# .gz ################################################################################################
+# is a compressed archive file created using the gzip (GNU zip) algorithm,
+# designed for lossless data compression, particularly on Unix-like systems.
+# To_Do how to open it 
